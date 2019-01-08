@@ -1,0 +1,650 @@
+{
+   "chromePolicies": {
+      "AllowDinosaurEasterEgg": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "AllowKioskAppControlChromeVersion": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "AlternateErrorPagesEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ArcBackupRestoreServiceEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": 0
+      },
+      "ArcEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "ArcGoogleLocationServicesEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": 0
+      },
+      "AttestationEnabledForDevice": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "AttestationEnabledForUser": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "AttestationForContentProtectionEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "CaptivePortalAuthenticationIgnoresProxy": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "CastReceiverEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "ChromeOsLockOnIdleSuspend": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ChromeOsMultiProfileUserBehavior": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "not-allowed"
+      },
+      "ChromeOsReleaseChannel": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "stable-channel"
+      },
+      "ChromeOsReleaseChannelDelegated": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DefaultCookiesSetting": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "DefaultGeolocationSetting": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 2
+      },
+      "DefaultImagesSetting": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "DefaultJavaScriptSetting": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "DeveloperToolsAvailability": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 2
+      },
+      "DeveloperToolsDisabled": {
+         "error": "This policy has been deprecated.\nIgnored because it was overridden by DeveloperToolsAvailability.\nThis policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceAllowNewUsers": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceAutoUpdateDisabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceBlockDevmode": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceDataRoamingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceEphemeralUsersEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceGuestModeEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceLocalAccounts": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [ {
+            "id": "hblfbmjdaalalhifaajnnodlkiloengc",
+            "kiosk_app_id": "hblfbmjdaalalhifaajnnodlkiloengc",
+            "type": 1
+         }, {
+            "id": "omkghcboodpimaoimdkmigofhjcpmpeb",
+            "kiosk_app_id": "omkghcboodpimaoimdkmigofhjcpmpeb",
+            "type": 1
+         } ]
+      },
+      "DeviceLoginScreenAutoSelectCertificateForUrls": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "DeviceLoginScreenDefaultHighContrastEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceLoginScreenDefaultLargeCursorEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceLoginScreenDefaultScreenMagnifierType": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "DeviceLoginScreenDefaultSpokenFeedbackEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceLoginScreenDomainAutoComplete": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "mysummitps.org"
+      },
+      "DeviceLoginScreenInputMethods": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "DeviceLoginScreenLocales": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "DeviceMetricsReportingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceOpenNetworkConfiguration": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "{\n   \"GlobalNetworkConfiguration\": {\n      \"AllowOnlyPolicyNetworksToAutoconnect\": false\n   },\n   \"NetworkConfigurations\": [ {\n      \"GUID\": \"{f6c65a9f-6b43-4096-83e8-df8aa13a1ee7}\",\n      \"Name\": \"Student Network\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": true,\n         \"HiddenSSID\": false,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"sps-students\",\n         \"Security\": \"WPA-PSK\"\n      }\n   }, {\n      \"GUID\": \"{9f2f5452-12f9-401f-b538-6242306e49af}\",\n      \"Name\": \"mysummitwifi\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"HiddenSSID\": false,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"mysummitwifi\",\n         \"Security\": \"WPA-PSK\"\n      }\n   } ]\n}\n"
+      },
+      "DeviceShowUserNamesOnSignin": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceTargetVersionPrefix": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": ""
+      },
+      "DeviceUpdateHttpDownloadsEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceUpdateScatterFactor": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 259200
+      },
+      "DeviceUserWhitelist": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [ "*@mysummitps.org", "*@summitps.org" ]
+      },
+      "DisplayRotationDefault": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "EasyUnlockAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "EcryptfsMigrationStrategy": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 5
+      },
+      "EnableSyncConsent": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ExtensionInstallBlacklist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "*" ]
+      },
+      "ExtensionInstallForcelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "bocjplmmdjglmffmpofmmndklbdpcmeb;https://clients2.google.com/service/update2/crx", "lojeahlfbkkiopgolmojagpemoflmkhn;https://clients2.google.com/service/update2/crx", "fhpgmkkoibemkgnlcdepmknfhfpodbcp;https://goguardian.com/licenses/update.php", "haldlgldplgnggkjaafhelgiaglafanh;https://goguardian.com/ext/m.xml", "ghbmnnjooekpmoecnnnilnnbdlolhkhi;https://clients2.google.com/service/update2/crx", "ihckglmbmohbbhhmadfloadbbaoicoed;https://clients2.google.com/service/update2/crx", "apdfllckaahabafndbhieahigkjlhalf;https://clients2.google.com/service/update2/crx", "ejjicmeblgpmajnghnpcppodonldlgfn;https://clients2.google.com/service/update2/crx", "okgjbfikepgflmlelgfgecmgjnmnmnnb;https://clients2.google.com/service/update2/crx", "pjkljhegncpnkpknbcohdijeoejaedia;https://clients2.google.com/service/update2/crx", "aohghmighlieiainnegkcijnfilokake;https://clients2.google.com/service/update2/crx" ]
+      },
+      "ExtensionInstallWhitelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "delkpojpfkkfgmknffmblbhmlamkjioi", "cfhdojbkjhnklbpkdaibdccddilifddb", "gighmmpiobklfepjocnamgkkbiglidom", "laookkfknpbbblfpciffpaejjkokdgca", "pgeolalilifpodheeocdmbhehgnkkbak", "mapfkcmnklanficcnnjkgeneakedmjkp", "kneikgicddfadmnpnjhbfiaoomchignh", "mmeijimgabbpbgpdklnllpncmdofkcpn", "nbjdhgkkhefpifbifjiflpaajchdkhpg", "omebobahbkampglebglkoagddjnjbhle", "hfknjgplnkgjihghcidajejfmldhibfm", "fmlboobidmkelggdainpknloccojpppi", "fhpgmkkoibemkgnlcdepmknfhfpodbcp", "haldlgldplgnggkjaafhelgiaglafanh", "dncgedbnidfkppmdgfgidcepclnokpkb", "kbfnbcaeplbcioakkpcpgfkobkghlhen", "ifajfiofeifbbhbionejdliodenmecna", "iaiglpeefdoagfbbfhjfbmomnfobojia", "fikllfcpmiacodhhjfbmddfeafmljboj", "fljalecfjciodhpcledpamjachpmelml", "ocnjckohbfdjdlhfgmnocamdfdkfclmk", "pakknklefcjdhejnffafpeelofiekebg", "ngmbmhchieecdhfkpafcmnjonmckhdpj" ]
+      },
+      "ExtensionSettings": {
+         "error": "Schema validation error at \"*\": The URL pattern 'chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html' for attribute runtime_blocked_hosts has a path specified. Paths are not supported, please remove the path and try again. e.g. *://example.com/ => *://example.com",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "*": {
+               "blocked_permissions": [ "desktopCapture", "proxy", "storage", "usb", "vpnProvider" ],
+               "runtime_allowed_hosts": [ "https://www.goguardian.com/" ],
+               "runtime_blocked_hosts": [ "chrome://inspect", "chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html", "chrome-extension://cjbfomnbifhcdnihkgipgfcihmgjfhbf/audio_player.html" ]
+            }
+         }
+      },
+      "ExternalStorageDisabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ExternalStorageReadOnly": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ForceGoogleSafeSearch": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ForceYouTubeRestrict": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "HeartbeatEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "HomepageIsNewTabPage": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "HomepageLocation": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "https://www.summitlearning.org"
+      },
+      "IncognitoModeAvailability": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "InstantTetheringAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "LidCloseAction": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "LogUploadEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "LoginVideoCaptureAllowedUrls": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "ManagedBookmarks": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ {
+            "name": "PLP",
+            "url": "https://www.summitlearning.org"
+         }, {
+            "name": "Gmail ",
+            "url": "https://mail.google.com"
+         }, {
+            "name": "Clever",
+            "url": "https://clever.com/in/summitwa"
+         } ]
+      },
+      "MaxInvalidationFetchDelay": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 10000
+      },
+      "NTLMShareAuthenticationEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "NTPContentSuggestionsEnabled": {
+         "error": "Unknown policy.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "NativePrinters": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "NetBiosShareDiscoveryEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "NetworkThrottlingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": {
+            "download_rate_kbits": 0,
+            "enabled": false,
+            "upload_rate_kbits": 0
+         }
+      },
+      "NotificationsAllowedForUrls": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "google.com" ]
+      },
+      "OpenNetworkConfiguration": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "{\n   \"Certificates\": [ {\n      \"GUID\": \"{9549e36f-c791-4e19-837a-80b5e27d375f}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID1zCCAr+gAwIBAgIBADANBgkqhkiG9w0BAQUFADCBpTELMAkGA1UEBhMCVVMx\\nEzARBgNVBAgTCkNhbGlmb3JuaWExEjAQBgNVBAcTCVN1bm55dmFsZTERMA8GA1UE\\nChMIRm9ydGluZXQxHjAcBgNVBAsTFUNlcnRpZmljYXRlIEF1dGhvcml0eTEVMBMG\\nA1UEAxMMRm9ydGlHYXRlIENBMSMwIQYJKoZIhvcNAQkBFhRzdXBwb3J0QGZvcnRp\\nbmV0LmNvbTAeFw0wODEwMTgwMDQ2MzlaFw0yODEwMTMwMDQ2MzlaMIGlMQswCQYD\\nVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTESMBAGA1UEBxMJU3Vubnl2YWxl\\nMREwDwYDVQQKEwhGb3J0aW5ldDEeMBwGA1UECxMVQ2VydGlmaWNhdGUgQXV0aG9y\\naXR5MRUwEwYDVQQDEwxGb3J0aUdhdGUgQ0ExIzAhBgkqhkiG9w0BCQEWFHN1cHBv\\ncnRAZm9ydGluZXQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA\\ntveDq5vViSsRgHROaylt0qMdteLi1D/L0AWct+j5Y+N+HskBqsK5eGHrgytW6Jr3\\ndtQ/53/usTI+8HHpPXj8gWune6ivjQcOAmGsB/gfwLPCa98+kLgo9wpu0NxLVbyU\\ni5F9OjFtMpEGsYlnu6jtrsIR8EonAnaUtYKCqPLNSVc/U97ZX9m7zyjLYEGENt2M\\nelnAeTDNy2VHdxvjCkHBZYuI8lygtQsFvAGdvHsoIGEKgnLHbycLCWUk1j9mTkYB\\n0QFKWdy45jsvrUEnaEuWBlIKNZEgy8uI1wW/Rtv1HHbofuWr/2gTIaggPjIWshak\\nsPA5wXth1N5pBMrPOxNoHwIDAQABoxAwDjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3\\nDQEBBQUAA4IBAQBrAfI+ULwg3M+k4s3FB6//6sPG5TcrvPdrQ8gArEeYJJCzHnVY\\ntknIPPx1K5V+QueAXRpLiuWphFP5w9OxWuDqHw8zwb24wJc7BD4CeFKUyYinbpDi\\nYg035SKYl4TSGMOTiYRoTxqgkfzcmTFfpfD1pOJQ08Kh+1yle35WqG9Ab1jrO0Y/\\nvltGReZckwh9e95SPzNA43xGZPSIgxZ8007EUqYBekoSKGAQPqTalHBkzpB1Us3F\\n5yCZzxA4WYT9UGVwPhIVgMlZvm5NL29/5dFgts51U+P4OZ0Or+xQfWYIxTzCWtAC\\n1ikZ/6HeIvet27H4CPP1rolBTXw4z6olP32T\\n-----END CERTIFICATE-----\"\n   } ],\n   \"NetworkConfigurations\": [ {\n      \"GUID\": \"{8de5ade4-03f8-43c4-8faa-73a87e18cb06}\",\n      \"Name\": \"Student Network\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": true,\n         \"HiddenSSID\": false,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"sps-students\",\n         \"Security\": \"WPA-PSK\"\n      }\n   }, {\n      \"GUID\": \"{60e92502-9295-44d2-9e7c-7c03b4b6d319}\",\n      \"Name\": \"mysummitwifi\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"HiddenSSID\": false,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"mysummitwifi\",\n         \"Security\": \"WPA-PSK\"\n      }\n   } ]\n}\n"
+      },
+      "PowerManagementIdleSettings": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "AC": {
+               "IdleAction": "Suspend"
+            },
+            "Battery": {
+               "IdleAction": "Suspend"
+            }
+         }
+      },
+      "PresentationScreenDimDelayScale": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 100
+      },
+      "ProxySettings": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "ProxyMode": "direct"
+         }
+      },
+      "QuickUnlockModeWhitelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": [  ]
+      },
+      "RebootAfterUpdate": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ReportDeviceActivityTimes": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceBootMode": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceHardwareStatus": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceNetworkInterfaces": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceSessionStatus": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceUsers": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceVersionInfo": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "RestoreOnStartup": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 4
+      },
+      "RestoreOnStartupURLs": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "https://mail.google.com", "https://www.summitlearning.org", "https://clever.com/in/summitwa" ]
+      },
+      "SAMLOfflineSigninTimeLimit": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1209600
+      },
+      "SafeBrowsingEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "SearchSuggestEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "SecondaryGoogleAccountSigninAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ShowHomeButton": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "SmartLockSigninAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "SmsMessagesAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "SystemTimezone": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "America/Los_Angeles"
+      },
+      "TPMFirmwareUpdateSettings": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": {
+
+         }
+      },
+      "TaskManagerEndProcessEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "TranslateEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "URLBlacklist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "https://omegle.tv", "www.omegle.de/", "http://www.omegle.com", "https://agar.io/", "teenhive.com", "hangouts.google.com", "chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html", "chrome://inspect", "hangouts.google.com", "talk.google.com", "talkx.l.google.com", "talkgadget.google.com", "mtalk.google.com", "chrome://flags" ]
+      },
+      "UsbDetachableWhitelist": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "UserActivityScreenDimDelayScale": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 100
+      }
+   },
+   "extensionPolicies": {
+      "ghbmnnjooekpmoecnnnilnnbdlolhkhi": {
+
+      }
+   }
+}
