@@ -4,7 +4,7 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": false
+         "value": true
       },
       "AllowKioskAppControlChromeVersion": {
          "level": "mandatory",
