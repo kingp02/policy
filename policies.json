@@ -627,7 +627,7 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceCloud",
-         "value": [ "https://omegle.tv", "www.omegle.de/", "http://www.omegle.com", "https://agar.io/", "teenhive.com", "hangouts.google.com", "chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html", "chrome://inspect", "hangouts.google.com", "talk.google.com", "talkx.l.google.com", "talkgadget.google.com", "mtalk.google.com", "chrome://flags" ]
+         "value": [ "https://omegle.tv", "www.omegle.de/", "http://www.omegle.com", "https://agar.io/", "teenhive.com", "hangouts.google.com", "chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html", "chrome://inspect", "hangouts.google.com", "talk.google.com", "talkx.l.google.com", "talkgadget.google.com", "mtalk.google.com" ]
       },
       "UsbDetachableWhitelist": {
          "level": "mandatory",
