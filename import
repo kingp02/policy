@@ -1,0 +1,581 @@
+2019-01-31T17:23:45.570Z,Mozilla/5.0 (X11; CrOS x86_64 11151.113.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.127 Safari/537.36
+=====
+{
+  "actionable_error": [
+    {
+      "is_valid": false,
+      "stat_name": "Error Type",
+      "stat_value": "Uninitialized"
+    },
+    {
+      "is_valid": false,
+      "stat_name": "Action",
+      "stat_value": "Uninitialized"
+    },
+    {
+      "is_valid": false,
+      "stat_name": "URL",
+      "stat_value": "Uninitialized"
+    },
+    {
+      "is_valid": false,
+      "stat_name": "Error Description",
+      "stat_value": "Uninitialized"
+    }
+  ],
+  "actionable_error_detected": false,
+  "details": [
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Transport State",
+          "stat_value": "Active"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Disable Reasons",
+          "stat_value": "None"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Sync Feature Enabled",
+          "stat_value": true
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Setup In Progress",
+          "stat_value": false
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Summary"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Client Version",
+          "stat_value": "Google Chrome Chrome OS 71.0.3578.127 (ab04191dbdc8146b84b76a6e91a762b88574eaa4-refs/branch-heads/3578@{#931}) stable"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Server URL",
+          "stat_value": "https://clients4.google.com/chrome-sync"
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Version Info"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Sync Client ID",
+          "stat_value": "ClUARiMiRpJ7hjMnk+SYZA=="
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Invalidator Client ID",
+          "stat_value": "qGsLwua+mMtczFzBhkzfOQ=="
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Username",
+          "stat_value": "pwhitfieldjr.ol@mysummitps.org"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Is Primary",
+          "stat_value": true
+        }
+      ],
+      "is_sensitive": true,
+      "title": "Identity"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Requested Token",
+          "stat_value": "Thursday, January 31, 2019 at 8:49:01 AM"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Received Token",
+          "stat_value": "Thursday, January 31, 2019 at 8:49:01 AM"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Last Token Request Result",
+          "stat_value": "OK"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Next Token Request",
+          "stat_value": "not scheduled"
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Credentials"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Server Connection",
+          "stat_value": "OK since Thursday, January 31, 2019 at 8:49:01 AM"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Last Synced",
+          "stat_value": "0 hours, 6 minutes ago"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Sync First-Time Setup Complete",
+          "stat_value": true
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Sync Cycle Ongoing",
+          "stat_value": false
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Local Sync Backend Enabled",
+          "stat_value": false
+        },
+        {
+          "is_valid": false,
+          "stat_name": "Local Backend Path",
+          "stat_value": "Uninitialized"
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Local State"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Throttled or Backoff",
+          "stat_value": false
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Retry Time",
+          "stat_value": "Scheduler is not in backoff or throttled"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Notifications Enabled",
+          "stat_value": true
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Network"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Explicit Passphrase",
+          "stat_value": true
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Passphrase Required",
+          "stat_value": false
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Cryptographer Ready",
+          "stat_value": true
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Cryptographer Has Pending Keys",
+          "stat_value": false
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Encrypted Types",
+          "stat_value": "Bookmarks, Preferences, Passwords, Autofill Profiles, Autofill, Autofill Wallet Metadata, Themes, Typed URLs, Extensions, Search Engines, Sessions, Apps, App settings, Extension settings, App Notifications, Dictionary, Favicon Images, Favicon Tracking, Deprecated Articles, App List, WiFi Credentials, Arc Package, Printers, Reading List, Mountain Shares"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Has Keystore Key",
+          "stat_value": true
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Keystore Migration Time",
+          "stat_value": "Tuesday, August 16, 2016 at 10:04:51 AM"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Passphrase Type",
+          "stat_value": "PassphraseType::CUSTOM_PASSPHRASE"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Passphrase Time",
+          "stat_value": "Wednesday, January 30, 2019 at 9:15:58 AM"
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Encryption"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Sync Source",
+          "stat_value": "GU_TRIGGER"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "GetKey Step Result",
+          "stat_value": "UNSET"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Download Step Result",
+          "stat_value": "UNSET"
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Commit Step Result",
+          "stat_value": "SYNCER_OK"
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Status from Last Completed Session"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Notifications Received",
+          "stat_value": 4
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Updates Downloaded",
+          "stat_value": 1410
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Tombstone Updates",
+          "stat_value": 0
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Reflected Updates",
+          "stat_value": 912
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Successful Commits",
+          "stat_value": 1029
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Conflicts Resolved: Client Wins",
+          "stat_value": 0
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Conflicts Resolved: Server Wins",
+          "stat_value": 0
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Running Totals"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Encryption Conflicts",
+          "stat_value": 0
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Hierarchy Conflicts",
+          "stat_value": 0
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Server Conflicts",
+          "stat_value": 0
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Committed Items",
+          "stat_value": 1
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Transient Counters (this cycle)"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Updates Downloaded",
+          "stat_value": 0
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Committed Count",
+          "stat_value": 1
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Entries",
+          "stat_value": 694
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Transient Counters (last cycle of last completed session)"
+    },
+    {
+      "data": [
+        {
+          "is_valid": true,
+          "stat_name": "Server Invalidations",
+          "stat_value": 0
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Local Changes",
+          "stat_value": 0
+        },
+        {
+          "is_valid": true,
+          "stat_name": "Local Refreshes",
+          "stat_value": 0
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Nudge Source Counters"
+    }
+  ],
+  "type_status": [
+    {
+      "group_type": "Group Type",
+      "message": "Message",
+      "name": "Model Type",
+      "num_entries": "Total Entries",
+      "num_live": "Live Entries",
+      "state": "State",
+      "status": "header"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "Bookmarks",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "Preferences",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Password",
+      "message": "",
+      "name": "Passwords",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group DB",
+      "message": "",
+      "name": "Autofill Profiles",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Non Blocking",
+      "message": "",
+      "name": "Autofill",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group DB",
+      "message": "",
+      "name": "Autofill Wallet",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group DB",
+      "message": "",
+      "name": "Autofill Wallet Metadata",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "Themes",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Non Blocking",
+      "message": "",
+      "name": "Typed URLs",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "Extensions",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "Search Engines",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Non Blocking",
+      "message": "",
+      "name": "Sessions",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "Apps",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group File",
+      "message": "",
+      "name": "App settings",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group File",
+      "message": "",
+      "name": "Extension settings",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Passive",
+      "message": "Datatype not ready at config time.",
+      "name": "History Delete Directives",
+      "state": "Not Running",
+      "status": "disabled"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "Dictionary",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "Favicon Images",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "Favicon Tracking",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Non Blocking",
+      "message": "",
+      "name": "Device Info",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "Priority Preferences",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Passive",
+      "message": "Datatype not ready at config time.",
+      "name": "Managed User Settings",
+      "state": "Not Running",
+      "status": "disabled"
+    },
+    {
+      "group_type": "Group UI",
+      "message": "",
+      "name": "App List",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Passive",
+      "message": "Datatype not ready at config time.",
+      "name": "Managed User Whitelists",
+      "state": "Not Running",
+      "status": "disabled"
+    },
+    {
+      "group_type": "Group Passive",
+      "message": "Datatype not ready at config time.",
+      "name": "Arc Package",
+      "state": "Not Running",
+      "status": "disabled"
+    },
+    {
+      "group_type": "Group Non Blocking",
+      "message": "",
+      "name": "Printers",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Non Blocking",
+      "message": "",
+      "name": "User Events",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Non Blocking",
+      "message": "",
+      "name": "User Consents",
+      "state": "Running",
+      "status": "ok"
+    },
+    {
+      "group_type": "Group Passive",
+      "message": "",
+      "name": "Tabs",
+      "state": "Running",
+      "status": "ok"
+    }
+  ],
+  "unrecoverable_error_detected": true
+}
